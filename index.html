@@ -18,34 +18,31 @@
   </head>
 
   <body>
-    <section style="display: flex; justify-content: flex-end">
-      <nav class="navbar navbar-nav ml-auto  navbar-expand-lg bg-light">
+    <header>
+      <nav class="navbar navbar-expand bg-light navbar-dark">
         <div class="container-fluid">
-          
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="collapse navbar-collapse d-flex flex-row-reverse"
-            id="navbarNavAltMarkup"
-          >
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Espectaculos</a>
-              <a class="nav-link" href="#">Deportes</a>
-            </div>
-          </div>
+          <a class="navbar-brand" href="#">
+            <img
+              src="./src/logo.jpg"
+              alt="Avatar Logo"
+              style="width: 40px"
+              class="rounded-pill"
+            />
+          </a>
+          <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Espectaculo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Deportes</a>
+            </li>
+          </ul>
         </div>
       </nav>
-    </section>
+    </header>
     <br>
     <section>
         <div class="container">
@@ -72,8 +69,8 @@
                   <div class="row">
                     <div class="col-md-12">
                       <div>
-                        <form class="fa fa-search pe-3 tex-light" role="search">
-                          <input class="form-control me-2" type="search" placeholder="Search Articles" aria-label="Search">
+                        <form class="d-flex" role="search">
+                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                         </form>
                       </div>
                     </div>
