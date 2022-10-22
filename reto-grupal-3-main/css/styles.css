@@ -1,0 +1,37 @@
+
+
+/*NAV 2*/
+
+        .nav-item{
+            transform:translate(55.0508px, -40.4687px);
+            -webkit-transform:translate(55.0508px, -40.4687px);
+            -moz-transform:translate(55.0508px, -40.4687px);
+            -ms-transform:translate(55.0508px, -40.4687px);
+            -o-transform:translate(55.0508px, -40.4687px);
+}
+
+
+
+    .nav img{
+        
+          left: 557px;
+          top: 11px;
+          width: 22.0078px;
+          height: 22.0078px;
+          image-orientation: right;
+          transform:translate(360.0508px, -70.4687px);
+          -webkit-transform:translate(360.0508px, -70.4687px);
+          -moz-transform:translate(360.0508px, -70.4687px);
+          -ms-transform:translate(360.0508px, -70.4687px);
+          -o-transform:translate(360.0508px, -70.4687px);
+}
+
+
+
+
+h1{
+
+    color: #356EAD;
+
+    
+}
