@@ -1,414 +1,402 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
-      crossorigin="anonymous"
-    />
-    <title>Trabajo_Grupal3</title>
-    <script
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bootstrap demo</title>
+  <link rel="stylesheet" href="" />
+  <script
       src="https://kit.fontawesome.com/7198432ffd.js"
       crossorigin="anonymous"
     ></script>
-  </head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+</head>
 
-  <body>
-    <header>
-      <nav class="navbar navbar-expand bg-light navbar-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img
-              src="./src/logo.jpg"
-              alt="Avatar Logo"
-              style="width: 40px"
-              class="rounded-pill"
-            />
-          </a>
-          <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link text-dark" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark" href="#">Espectaculo</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark" href="#">Deportes</a>
-            </li>
-          </ul>
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand bg-light navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./src/logo.jpg" alt="Avatar Logo" style="width: 40px" class="rounded-pill" />
+        </a>
+        <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">Espectaculo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">Deportes</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div class=" container-1 ">
+    <div class=" text-center  text-light"
+      style="background-image: url('./src/unknown.png'); background-size: cover;">
+      <h1 class="mb-5 h2 pt-5">Blog Afrianska</h1>
+      <p class="pb-5">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam laborum harum fugit voluptatum, ducimus facere aperiam alias unde mollitia expedita ab consequatur ex deleniti placeat. Enim ab dolore officia saepe? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore ex beatae dignissimos commodi sint aliquid hic ea? Quae dolorum culpa ullam tenetur explicabo illo repudiandae neque, repellendus sed. Quam, id.
+      </p>
+    </div>
+  </div>
+
+  <div
+        class="container-fluid my-3 text-white bg-opacity-20"
+        style="border-radius: 20px; width: 98%;"
+      >
+  <input class="form-control" type="text" placeholder="Search Article" aria-label="Search">
+</div>
+
+
+  <div class="container">
+    <h2 class="py-3 text-primary">POPULAR</h2>
+
+    <div class="row pt-4">
+      <div class="col-sm-5">
+        <h2>Feugiat sodales at nullam tellus.</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi
+          posuere nibh tempor fringilla porta pellentesque ipsum. Lorem
+          ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <div class="row pt-5">
+          <div class="col-sm-9 ">
+            <h5>Samantha Leuthex</h5>
+          </div>
+          <div class="col-sm-3 " style="text-align: right;">
+            <i class="fa-solid fa-bookmark px-2 fa-xl" id="book"></i>
+            <i class="fa-sharp fa-solid fa-share-nodes fa-xl" id="share"></i>
+          </div>
+          <div class="col-sm-12">
+            <h6>May 5, 3 min read</h6>
+          </div>
         </div>
-      </nav>
-    </header>
-    <br>
-    <section>
-        <div class="container">
-            <div>
-              <div class="card text-bg-dark">
-                <img class="rounded" src="./src/unknown.png" alt="mario">
-                <div class="card-img-overlay" style="text-align: center;">
-                  <h1>Blog Afrianska</h1>
-                  <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae
-                    nihil distinctio doloribus aliquam officia autem atque sequi facere
-                    fugiat ex culpa aperiam quis reiciendis quos accusantium commodi, enim
-                    quibusdam vitae</p>
-                </div>
-            </div>
-            <br>
-                  
-            <main class="container">
-      
-              <div
-                class="container-fluid my-3  text-white bg-opacity-20"
-                style="border-radius: 20px; width: 98%;"
-              >
-                <div class="search py-3">
-                  <div class="row">
-                    <div class="col-md-12">
-                      <div>
-                        <form class="d-flex" role="search">
-                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        </form>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="container">
-                <h2 class="py-3 text-primary">POPULAR</h2>
-        
-                <div class="row pt-4">
-                  <div class="col-sm-5">
-                    <h2>Feugiat sodales at nullam tellus.</h2>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                      eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi
-                      posuere nibh tempor fringilla porta pellentesque ipsum. Lorem
-                      ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                      eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
-                    <div class="row pt-5">
-                      <div class="col-sm-9 ">
-                          <h5>Samantha Leuthex</h5>
-                      </div>
-                      <div class="col-sm-3 " style="text-align: right;">
-                        <i class="fa-solid fa-bookmark px-2 fa-xl" id="book"></i>
-                        <i class="fa-sharp fa-solid fa-share-nodes fa-xl" id="share"></i>
-                      </div>
-                      <div class="col-sm-12">
-                        <h6>May 5, 3 min read</h6>     
-                    </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-7">
-                      <div   class="bg-image d-flex justify-content-center align-items-center"
-                      style="
+      </div>
+      <div class="col-sm-7">
+        <div class="bg-image d-flex justify-content-center align-items-center" style="
                         background-image: url('./src/img-post-1.png');
-                        height: 380px; background-repeat: no-repeat; background-size: cover;";">
-                      </div>
-                  </div>
-                </div>
-              </div>
-              <div class="container pt-4">
-                <div class="row pt-3">
-                  <div class="col-sm-4">
-                      <div   class="bg-image"
-                      style="
+                        height: 380px; background-repeat: no-repeat; background-size: cover;" ;">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container pt-4">
+    <div class="row pt-3">
+      <div class="col-sm-4">
+        <div class="bg-image" style="
                         background-image: url('./src/img-post-2.png');
-                        height: 250px; background-repeat: no-repeat; background-size: cover;";">
-                      </div>
-             
-                    <h2 class="py-3" style="font-size: 20px;">Porta proin tellus sed pulvinar odio eu pulvinar.</h2>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                      eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi
-                      posuere nibh tempor fringilla porta pellentesque ipsum. Lorem
-                      ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                      eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
-                    <div class="row pt-3 align-items-center">
-                      <div class="col-sm-9">
-                          <h5>Samantha Leuthex</h5>
-                      </div>
-                      <div class="col-sm-3 " style="text-align: right;">
-                        <i class="fa-solid fa-bookmark px-2 fa-xl" id="book"></i>
-                        <i class="fa-sharp fa-solid fa-share-nodes fa-xl" id="share"></i>
-                      </div>
-                      <div class="col-sm-12">
-                        <h6>May 5, 3 min read</h6>     
-                    </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div   class="bg-image"
-                    style="
+                        height: 250px; background-repeat: no-repeat; background-size: cover;" ;">
+        </div>
+
+        <h2 class="py-3" style="font-size: 20px;">Porta proin tellus sed pulvinar odio eu pulvinar.</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi
+          posuere nibh tempor fringilla porta pellentesque ipsum. Lorem
+          ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <div class="row pt-3 align-items-center">
+          <div class="col-sm-9">
+            <h5>Samantha Leuthex</h5>
+          </div>
+          <div class="col-sm-3 " style="text-align: right;">
+            <i class="fa-solid fa-bookmark px-2 fa-xl" id="book"></i>
+            <i class="fa-sharp fa-solid fa-share-nodes fa-xl" id="share"></i>
+          </div>
+          <div class="col-sm-12">
+            <h6>May 5, 3 min read</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="bg-image" style="
                       background-image: url('./src/img-post-3.png');
-                      height: 250px; background-repeat: no-repeat; background-size: cover;";">
-                    </div>
-           
-                  <h2  class="py-3" style="font-size: 20px;">Porta proin tellus sed pulvinar odio eu pulvinar.</h2>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi
-                    posuere nibh tempor fringilla porta pellentesque ipsum. Lorem
-                    ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
-                  <div class="row pt-3 align-items-center">
-                    <div class="col-sm-9">
-                        <h5>Samantha Leuthex</h5>
-                    </div>
-                    <div class="col-sm-3 " style="text-align: right;">
-                      <i class="fa-solid fa-bookmark px-2 fa-xl" id="book"></i>
-                        <i class="fa-sharp fa-solid fa-share-nodes fa-xl" id="share"></i>
-                    </div>
-                    <div class="col-sm-12">
-                      <h6>May 5, 3 min read</h6>     
-                  </div>
-                  </div>
-                </div>
-                <div class="col-sm-4">
-                  <div   class="bg-image"
-                  style="
+                      height: 250px; background-repeat: no-repeat; background-size: cover;" ;">
+        </div>
+
+        <h2 class="py-3" style="font-size: 20px;">Porta proin tellus sed pulvinar odio eu pulvinar.</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi
+          posuere nibh tempor fringilla porta pellentesque ipsum. Lorem
+          ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <div class="row pt-3 align-items-center">
+          <div class="col-sm-9">
+            <h5>Samantha Leuthex</h5>
+          </div>
+          <div class="col-sm-3 " style="text-align: right;">
+            <i class="fa-solid fa-bookmark px-2 fa-xl" id="book"></i>
+            <i class="fa-sharp fa-solid fa-share-nodes fa-xl" id="share"></i>
+          </div>
+          <div class="col-sm-12">
+            <h6>May 5, 3 min read</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="bg-image" style="
                     background-image: url('./src/img-post-4.png');
-                    height: 250px; background-repeat: no-repeat; background-size: cover;";">
-                  </div>
-         
-                <h2  class="py-3"  style="font-size: 20px;">Porta proin tellus sed pulvinar odio eu pulvinar.</h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi
-                  posuere nibh tempor fringilla porta pellentesque ipsum. Lorem
-                  ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                  eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-                <div class="row pt-3 align-items-center">
-                  <div class="col-sm-9">
-                      <h5>Samantha Leuthex</h5>
-                  </div>
-                  <div class="col-sm-3 " style="text-align: right;">
-                    <i class="fa-solid fa-bookmark px-2 fa-xl" id="book"></i>
-                    <i class="fa-sharp fa-solid fa-share-nodes fa-xl" id="share"></i>
-                  </div>
-                  <div class="col-sm-12">
-                    <h6>May 5, 3 min read</h6>     
-                </div>
-                </div>
-              </div>
-             
-                </div>
-        <div class="container border-bottom mt-4">
-          <div class="row">
-            <h4 class="py-3 text-primary text-end">SEE ALL POPULAR ARTICLE</h4>
-        
+                    height: 250px; background-repeat: no-repeat; background-size: cover;" ;">
+        </div>
+
+        <h2 class="py-3" style="font-size: 20px;">Porta proin tellus sed pulvinar odio eu pulvinar.</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi
+          posuere nibh tempor fringilla porta pellentesque ipsum. Lorem
+          ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <div class="row pt-3 align-items-center">
+          <div class="col-sm-9">
+            <h5>Samantha Leuthex</h5>
+          </div>
+          <div class="col-sm-3 " style="text-align: right;">
+            <i class="fa-solid fa-bookmark px-2 fa-xl" id="book"></i>
+            <i class="fa-sharp fa-solid fa-share-nodes fa-xl" id="share"></i>
+          </div>
+          <div class="col-sm-12">
+            <h6>May 5, 3 min read</h6>
           </div>
         </div>
-        
-        <!---->
-        <article class="container mt-4"id="article">
-          <div class="container">
-              <h4 class="title-article text-primary"> ALL ARTICLE </h4>
-        
+      </div>
+    </div>
 
-                <div class="field-one">
-        
-                    <div class="left">
-                        <img src="./src/img-post-5.png" class="image-section" alt="">
-                    </div>
-        
-                    <div class="right">
-        
-                      <div class="first-part-right">
-        
-                      
-                      <h4 class="title-rigth">Massa eu laoreet enim augue vulputate nunc. </h4>
-                      <p class="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, voluptatem perferendis assumenda maiores quis aut inventore alias dolores ducimus, repudiandae nesciunt non veniam magnam provident!</p>
-        
-                    </div>
-        
-                    <div class="second-part-rigth">
-        
-                            <div class="user-name">
-                              <h5 class="title-rigth-date">Samantha Leuthex</h5>
-                              <p class="text">May 5, 3 min read</p>
-                            </div>
-                            
-                            <div class="icons">
-                              <i class="fa-solid fa-bookmark px-2 fa-xl" id="book"></i>
-                              <i class="fa-sharp fa-solid fa-share-nodes fa-xl" id="share"></i>
-        
-                    </div>
-        
-                        </div>
-                    </div>
-        
-        
-        
-                </div>
 
-                <div class="field-two">
-        
-                  <div class="left">
-                      <img src="./src/img-post-6.png" class="image-section" alt="">
-                  </div>
-        
-                  <div class="right">
-        
-                    <div class="first-part-right">
-        
-                    
-                    <h4 class="title-rigth">Massa eu laoreet enim augue vulputate nunc. </h4>
-                    <p class="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, voluptatem perferendis assumenda maiores quis aut inventore alias dolores ducimus, repudiandae nesciunt non veniam magnam provident!</p>
-        
-                  </div>
-        
-                  <div class="second-part-rigth">
-        
-                          <div class="user-name">
-                            <h5 class="title-rigth-date">Samantha Leuthex</h5>
-                            <p class="text">May 5, 3 min read</p>
-                          </div>
-                          
-                          <div class="icons">
-                            <i class="fa-solid fa-bookmark px-2 fa-xl" id="book"></i>
-                            <i class="fa-sharp fa-solid fa-share-nodes fa-xl" id="share"></i>
-                  </div>
-        
-                      </div>
-                  </div>
-        
-        
-        
-              </div>
-        
-        
-               <div class="field-three">
-        
-                <div class="left">
-                    <img src="./src/img-post-7.png" class="image-section" alt="">
-                </div>
-        
-                <div class="right">
-        
-                  <div class="first-part-right">
-        
-                  
-                  <h4 class="title-rigth">Massa eu laoreet enim augue vulputate nunc. </h4>
-                  <p class="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, voluptatem perferendis assumenda maiores quis aut inventore alias dolores ducimus, repudiandae nesciunt non veniam magnam provident!</p>
-        
-                </div>
-        
-                <div class="second-part-rigth">
-        
-                        <div class="user-name">
-                          <h5 class="title-rigth-date">Samantha Leuthex</h5>
-                          <p class="text">May 5, 3 min read</p>
-                        </div>
-                        
-                        <div class="icons">
-                          <i class="fa-solid fa-bookmark px-2 fa-xl" id="book"></i>
-                          <i class="fa-sharp fa-solid fa-share-nodes fa-xl" id="share"></i>
-                </div>
-        
-                    </div>
-                </div>
-        
-        
-        
+    <!-- all article -->
+    <div class="container border-bottom -6">
+      <div class="row">
+        <h4 class="py-5 text-primary text-end">SEE ALL POPULAR ARTICLE</h4>
+
+      </div>
+    </div>
+
+    <section class="py-5 ">
+      <div class="row">
+        <div class="col-md-6 col-sm-12 col-lg-5 col-xl-4 m-6 col-xxl-4">
+          <img src="./src/img-post-9.png" alt="">
+        </div>
+        <div class="col-md-6 col-sm-9 col-lg-7 col-xl-7 m-6 col-xxl-8">
+          <h2 class="py-1" style="font-size:18px; font-weight: 700;">Massa eu in laoreet enim augue vulputate nunc.</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, necessitatibus temporibus! Odit quas consectetur laudantium doloremque dolorum? Recusandae qui sequi, ex explicabo reiciendis rerum sit, ullam quisquam obcaecati, nulla voluptatum.</p>
+
+          <div class="d-flex jalign-content-between flex-wrap">
+            <div class="col-sm-8 col-lg-10">
+              <h5>Samantha Leuthex</h5>
+              <p class="card-text"><small class="text-muted">May 5. 3 min read</small></p>
             </div>
-        
-        
-               <div class="field-four">
-        
-                <div class="left">
-                    <img src="./src/img-post-8.png" class="image-section" alt="">
-                </div>
-        
-                <div class="right">
-        
-                  <div class="first-part-right">
-        
-                  
-                  <h4 class="title-rigth">Massa eu laoreet enim augue vulputate nunc. </h4>
-                  <p class="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, voluptatem perferendis assumenda maiores quis aut inventore alias dolores ducimus, repudiandae nesciunt non veniam magnam provident!</p>
-        
-                </div>
-        
-                <div class="second-part-rigth">
-        
-                        <div class="user-name">
-                          <h5 class="title-rigth-date">Samantha Leuthex</h5>
-                          <p class="text">May 5, 3 min read</p>
-                        </div>
-                        
-                        <div class="icons">
-                          <i class="fa-solid fa-bookmark px-2 fa-xl" id="book"></i>
-                          <i class="fa-sharp fa-solid fa-share-nodes fa-xl" id="share"></i>
-        
-                </div>
-        
-                    </div>
-                </div>
-        
-        
-        
+            <div class="col-sm-1 py-2">
+              <img src="./src/icon-save.png" alt="">
             </div>
-        
-        
-          <div class="field-five">
-        
-            <div class="left">
-                <img src="./src/img-post-9.png" class="image-section" alt="">
-            </div>
-        
-            <div class="right">
-        
-              <div class="first-part-right">
-        
+            <div class="col-sm-1 py-2">
+              <img src="./src/icon-share.png" alt="">
               
-              <h4 class="title-rigth">Massa eu laoreet enim augue vulputate nunc. </h4>
-              <p class="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, voluptatem perferendis assumenda maiores quis aut inventore alias dolores ducimus, repudiandae nesciunt non veniam magnam provident!</p>
-        
             </div>
-        
-            <div class="second-part-rigth">
-        
-                    <div class="user-name">
-                      <h5 class="title-rigth-date">Samantha Leuthex</h5>
-                      <p class="text">May 5, 3 min read</p>
-                    </div>
-                    
-                    <div class="icons">
-                      <i class="fa-solid fa-bookmark px-2 fa-xl" id="book"></i>
-                      <i class="fa-sharp fa-solid fa-share-nodes fa-xl" id="share"></i>
-            </div>
-        
-                </div>
-            </div>
-        
-        
-        
-        </div>
-        
-        
           </div>
-        
-        
-        </article>
-              </div>
-            </main>
+        </div>
+      </div>
 
-  <!-- Footer -->
+      <div class="row py-4">
+        <div class="col-md-6 col-sm-12 col-lg-5 col-xl-4 m-6 col-xxl-4">
+          <img src="./src/img-post-5.png" alt="">
+        </div>
+        <div class="col-md-6 col-sm-9 col-lg-7 col-xl-7 m-6 col-xxl-8">
+          <h2 class="py-1" style="font-size:18px; font-weight: 700;">Feugiat a euismod arcu feugiat posuere morbi.</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, necessitatibus temporibus! Odit quas consectetur laudantium doloremque dolorum? Recusandae qui sequi, ex explicabo reiciendis rerum sit, ullam quisquam obcaecati, nulla voluptatum.</p>
+
+          <div class="d-flex jalign-content-between flex-wrap">
+            <div class="col-sm-8 col-lg-10">
+              <h5>Samantha Leuthex</h5>
+              <p class="card-text"><small class="text-muted">May 5. 3 min read</small></p>
+            </div>
+            <div class="col-sm-1 py-2">
+              <img src="./src/icon-save.png" alt="">
+            </div>
+            <div class="col-sm-1 py-2">
+              <img src="./src/icon-share.png" alt="">
+              
+            </div>
+          </div>
+        </div>
+      </div>
 
 
-  </body>
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-    crossorigin="anonymous"
-  ></script>
+      <div class="row py-1">
+        <div class="col-md-6 col-sm-12 col-lg-5 col-xl-4 m-6 col-xxl-4">
+          <img src="./src/img-post-6.png" alt="">
+        </div>
+        <div class="col-md-6 col-sm-9 col-lg-7 col-xl-7 m-6 col-xxl-8">
+          <h2 class="py-1" style="font-size:18px; font-weight: 700;">Sociis purus pellentesque faucibus vitae et felis.</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, necessitatibus temporibus! Odit quas consectetur laudantium doloremque dolorum? Recusandae qui sequi, ex explicabo reiciendis rerum sit, ullam quisquam obcaecati, nulla voluptatum.</p>
+
+          <div class="d-flex jalign-content-between flex-wrap">
+            <div class="col-sm-8 col-lg-10">
+              <h5>Samantha Leuthex</h5>
+              <p class="card-text"><small class="text-muted">May 5. 3 min read</small></p>
+            </div>
+            <div class="col-sm-1 py-2">
+              <img src="./src/icon-save.png " alt="">
+            </div>
+            <div class="col-sm-1 py-2">
+              <img src="./src/icon-share.png" alt="">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row py-4">
+        <div class="col-md-6 col-sm-12 col-lg-5 col-xl-4 m-6 col-xxl-4">
+          <img src="./src/img-post-7.png" alt="">
+        </div>
+        <div class="col-md-6 col-sm-9 col-lg-7 col-xl-7 m-6 col-xxl-8">
+          <h2 class="py-1" style="font-size:18px; font-weight: 700;">Cursus feugiat mi pellentesque mauris sed eu.</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, necessitatibus temporibus! Odit quas consectetur laudantium doloremque dolorum? Recusandae qui sequi, ex explicabo reiciendis rerum sit, ullam quisquam obcaecati, nulla voluptatum.</p>
+
+          <div class="d-flex jalign-content-between flex-wrap">
+            <div class="col-sm-8 col-lg-10">
+              <h5>Samantha Leuthex</h5>
+              <p class="card-text"><small class="text-muted">May 5. 3 min read</small></p>
+            </div>
+            <div class="col-sm-1 py-2">
+              <img src="./src/icon-save.png" alt="">
+            </div>
+            <div class="col-sm-1 py-2">
+              <img src="./src/icon-share.png" alt="">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row py-4">
+        <div class="col-md-6 col-sm-12 col-lg-5 col-xl-4 m-6 col-xxl-4">
+          <img src="./src/img-post-8.png" alt="">
+        </div>
+        <div class="col-md-6 col-sm-9 col-lg-7 col-xl-7 m-6 col-xxl-8">
+          <h2 class="py-1" style="font-size:18px; font-weight: 700;">A morbi arcu curabitur etiam fringilla augue.</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, necessitatibus temporibus! Odit quas consectetur laudantium doloremque dolorum? Recusandae qui sequi, ex explicabo reiciendis rerum sit, ullam quisquam obcaecati, nulla voluptatum.</p>
+
+          <div class="d-flex jalign-content-between flex-wrap">
+            <div class="col-sm-8 col-lg-10">
+              <h5>Samantha Leuthex</h5>
+              <p class="card-text"><small class="text-muted">May 5. 3 min read</small></p>
+            </div>
+            <div class="col-sm-1 py-2">
+              <img src="./src/icon-save.png" alt="">
+            </div>
+            <div class="col-sm-1 py-2">
+              <img src="./src/icon-share.png" alt="">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small teal pt-4 text-light" style="background-color: #316099;">
+      <div class="container-fluid text-md-left">
+
+        <div class="row">
+          <div class="col-md-6 mt-md-0 mt-3">
+            <h5 class="text-uppercase font-weight-bold" style="padding: 2rem;">Intersted to woek
+              with our team?</h5>
+            <p style="padding: 2rem;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sapiente sint, nulla, nihil
+              repudiandae commodi voluptatibus corrupti animi sequi aliquid magnam debitis, maxime quam recusandae
+              harum esse fugiat. Itaque, culpa?</p>
+          </div>
+          <div class="col-md-6 mb-md-0 mb-3" 
+          style="align-items:center; display: flex; justify-items: center; justify-content: center;">
+            <button style="padding: 1rem 2.5rem; background-color: #5A98D0; border: none;">Let's talk</button>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <div class="container text-center text-md-left">
+        <div class="row">
+          <div class="col-md-3 mx-auto">
+            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">
+              <img src="./src/logo2.jpg" alt="" style="background-color: blue;">
+              Afrianska
+            </h5>
+            <ul class="list-unstyled">
+              <li>
+                <p>A. Lorem ipsum dolor sit amet, 
+                  <br> consectetur adipisicing elit.</p>
+              </li>
+              <li>
+                <p>T. +62-812-7313-4321</p>
+              </li>
+              <li>
+                <p>E hello.afrian@gmail.com</p>
+              </li>
+            </ul>
+          </div>
+
+          <hr class="clearfix w-100 d-md-none text-white">
+          <div class="col-md-3 mx-auto">
+            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">About Us</h5>
+            <ul class="list-unstyled" style="list-style: none;">
+              <li>
+                <a class="text-white" href="#!" style="text-decoration: none;">About</a>
+              </li>
+              <li>
+                <a class="text-white" href="#!" style="text-decoration: none;">What We Do</a>
+              </li>
+              <li>
+                <a class="text-white" href="#!" style="text-decoration: none;">Project</a>
+              </li>
+              <li>
+                <a class="text-white" href="#!" style="text-decoration: none;">How It Work With Us</a>
+              </li>
+            </ul>
+    
+          </div>
+          <hr class="clearfix w-100 d-md-none">
+          <div class="col-md-3 mx-auto">
+            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Follow Us</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a class="text-white" style="text-decoration: none;" href="#!">Instagram</a>
+              </li>
+              <li>
+                <a class="text-white" style="text-decoration: none;" href="#!">Facebook</a>
+              </li>
+              <li>
+                <a class="text-white" style="text-decoration: none;" href="#!">LinkedIn</a>
+              </li>
+              <li>
+                <a class="text-white" style="text-decoration: none;" href="#!">Youtube</a>
+              </li>
+            </ul>
+          </div>
+
+      <div class="footer-copyright py-3 d-flex p-5">
+        <span>2019 © Afrianska. All rights reserved.</span>
+      </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"></script>
+</body>
 
 </html>
